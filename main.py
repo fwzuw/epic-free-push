@@ -105,7 +105,7 @@ with open(path.join(path.dirname(__file__), '.env'), 'r') as file:
         key, value = line.strip().split('=')
         config[key] = value
 
-smtp_server = 'smtp.qq.com'
+smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 
 # Create a message
