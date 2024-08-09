@@ -3,3 +3,5 @@ automatic Email notification for epic free games.
 
 ## quick start
 > https://blog.yunyuyuan.net/manage/articles/5888
+
+原作者设置的是 qq 邮箱，已修改为谷歌邮箱，修改位置为[这里](main.py#L108)
