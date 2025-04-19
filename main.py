@@ -119,4 +119,3 @@ if config.get('ADDRESS') and config.get('CODE'):
     send_mail(config['ADDRESS'], config['CODE'], notify_title, mail_content)
 if config.get('GOTIFY_URL') and config.get('GOTIFY_TOKEN'):
     gotify(config['GOTIFY_URL'], config['GOTIFY_TOKEN'], notify_title, markdown_content)
->>>>>>> upstream/main
